@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Home](#home)
+- [Home](#index)
 - [About](#about)
 - [Services](#services)
 - [Contact](#contact)
