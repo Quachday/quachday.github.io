@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới Thiệu Bản Thân</title>
+    <title>Simple Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
         }
-        p {
-            color: #666;
-            line-height: 1.6;
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Giới Thiệu Bản Thân</h1>
-        <p>Xin chào! Tôi là <strong>[Tên Của Bạn]</strong>.</p>
-        <p>Tôi là một [Nghề Nghiệp Của Bạn] đến từ [Địa Chỉ Của Bạn].</p>
-        <p>Trang web này là nơi tôi chia sẻ những kiến thức và kinh nghiệm của mình về [Lĩnh Vực Của Bạn].</p>
-        <p>Nếu bạn có bất kỳ câu hỏi hoặc ý kiến, hãy liên hệ với tôi qua email: <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+    <header>
+        <h1>Simple Menu Example</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+        <!-- Your content here -->
+        <p>This is the content of your website.</p>
     </div>
 </body>
 </html>
